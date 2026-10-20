@@ -251,7 +251,7 @@ cv::Point2f points[4] = {
 ## Структура проекта
 
 ```
-robotino-aruco-trajectory/
+robotino-aruco/
 ├── CMakeLists.txt              # корневой CMake-проект (C++20)
 ├── main/
 │   ├── CMakeLists.txt          # цель robot_movement, поиск OpenCV и RobotinoAPI2
@@ -298,8 +298,8 @@ robotino-aruco-trajectory/
 ### Сборка
 
 ```powershell
-git clone https://github.com/Izolenty/robotino-aruco-trajectory.git
-cd robotino-aruco-trajectory
+git clone https://github.com/Izolentiy/robotino-aruco.git
+cd robotino-aruco
 cmake -S . -B build -A x64
 cmake --build build --config Release
 ```
