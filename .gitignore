@@ -1,0 +1,15 @@
+# Build output
+build/
+out/
+*.exe
+*.pdb
+*.ilk
+*.obj
+
+# IDE
+.vs/
+
+logs/*
+!logs/2024-12-17/
+!logs/2024-12-17/13-04-11.csv
+.claude/
